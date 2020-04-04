@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-715VMUUaOfZR3/rWXZJ9agJ/udwSXGEigabzUbJm2NR4/v5wpDy8c14yedZN6NL7" crossorigin="anonymous">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<div class="jumbotron jumbotron-fluid">
+	  <div class="container">
+		<h1>{{ author }}</h1>      
+		<p>Data Science Portfolio</p>
+	
+		<a href="https://sergatron.github.io/" class="btn btn-info" role="button">Home</a>
+		<a href="https://github.com/sergatron/Portfolio/blob/master/Sergey_Mouzykin_Resume.pdf" class="btn btn-info" role="button">Resume</a>
+		
+	  </div>
+	</div>
+
+		<div class="container container-fluid" style="margin-top:0">
+		  <div class="row">
+				<div class="col-sm-4">
+					<!--Photo and About Me Column-->   
+				  <div class="container">
+				  <h2>About Me</h2>
+					  <!--Info Card -->
+					  <div class="card bg-light" style="width:200px">
+						<img class="card-img-top" src="assets/me_200.jpg" alt="Card image" style="width:100%">
+						<div class="card-body">
+						
+							<h5 class="card-title">Sergey Mouzykin</h5>
+							<h6 class="card-text">B.S. Mechanical Engineering</h6>
+							<hr>
+							<h6 class="card-text">Data Science</h6>
+							<h6 class="card-text">Machine Learning</h6>
+							<h6 class="card-text">Python</h6>
+							<hr>
+							<div id="follow-me" class="mt-2">
+								<!--social media buttons column-->     
+								<a href="https://www.linkedin.com/in/sergey-mouzykin-bb144778/">
+									<img src="assets/linkedinlogo_25.png" alt="linkedin" class="img-fluid mb-4 ml-2">
+								</a>
+								
+								<a href="https://github.com/sergatron">
+									<img src="assets/githublogo_25.png" alt="github" class="img-fluid mb-4 ml-2">
+								</a>
+								
+								<a href="mailto:smouzykin@gmail.com">
+									<img src="assets/email_logo_25.png" alt="github" class="img-fluid mb-4 ml-2">
+								</a>
+							<p>Feel free to reach out or follow</p>	
+							</div>
+						  
+						</div>
+					  </div>
+					</div>
+
+				  <hr class="d-sm-none">
+				  
+				</div>
+				
+				<div class="col-md-6">
+					<h2>Most Recent Projects</h2>
+					<hr>
+					<!-- First Card-->
+					<div class="card bg-light" style="width:750px">
+						<a href="https://sergatron.github.io/Predicting-Building-Energy-Use">
+							<div class="card-body">
+							<h4 class="card-title">Predicting Building Energy Use</h4>
+							<h6 class="card-text">Data Wrangling, EDA, and performing multivariate regression with LightGBM.</h6>	
+							<img class="card-img-bottom" src="assets/nyc_skyscrapers.jpg" alt="NYC image" style="width:100%">
+						</a>
+						  
+						</div>
+					</div>
+					
+					<br>
+					<!-- Second Card-->
+					<div class="card bg-light" style="width:750px">
+						<a href="https://sergatron.github.io/Recommendations-IBM">
+							<div class="card-body">
+							<h4 class="card-title">Article Recommendations with IBM</h4>
+							<h6 class="card-text">Analyzing user-article interactions on the IBM platform to provide recommendations to new and existing users.</h6>	
+							<img class="card-img-bottom" src="assets/factorization.png" alt="user-item image" style="width:100%">
+						</a>
+						  
+						</div>
+					</div>
+					
+					<br>
+					<!-- Third Card-->
+					<div class="card bg-light" style="width:750px">
+						<a href="https://github.com/sergatron/disaster-response-project">
+							<div class="card-body">
+							<h4 class="card-title">Disaster Response ETL Pipeline</h4>
+							<h6 class="card-text">Performing ETL with unstructured text data and mutli-output classification to predict the needs for aid.</h6>	
+							<img class="card-img-bottom" src="assets/disaster.jpg" alt="disaster image" style="width:100%">
+						</a>
+						  
+						</div>
+					</div>
+
+				  {{ content }}
+				  
+
+				</div>
+		  </div>
+		</div>
+		
+<hr>
+<div class="container text-center" style="margin-top:100">
+
+	<footer>
+		<div class="col-sm-12">
+			<ul>
+				<div class="mx-auto" style="width:200px"><h5>Contact</h5></div>
+					<h6>
+						<a href="mailto:smouzykin@gmail.com">E-Mail</a> | 
+						<a href="https://www.linkedin.com/in/sergey-mouzykin-bb144778/">LinkedIn</a> | 
+						<a href="https://github.com/sergatron">GitHub</a> | 
+						<a href="https://medium.com/@smouzykin">Medium</a>
+					</h6>
+			</ul>
+		</div>
+		
+		<div class="col-sm-12">
+			<ul>
+				<div class="mx-auto">
+					<p>
+						This website was made using <a href="https://pages.github.com/">GitHub Pages</a>. You can view this page on <a href="https://github.com/sergatron/sergatron.github.io">GitHub.</a>
+					</p>
+				</div>
+			</ul>
+		</div>
+
+	</footer>
+	
+</div>
+
+</body>
+
+</html>
